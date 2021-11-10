@@ -9,7 +9,7 @@ In test case for Vulnerable website, a XSS-payload is injected & then alert is c
 In test case for Secure website (let's say google), a XSS-payload is injected & then no alert will be genrated because website is protected with CSP. Thus, a detailed HTML report is generated that will inform website is protected from XSS.
 Sofwate goes through SDLC which is given below: -
 
-Sofwatare Development Lifycyle (SDLC): -
+Sofwatare Development Lifycyle (SDLC): - \n
  1.Requirement gathering & Analysis Phase: - Analyzed & gathered information on Selenium architecture, Working of Selenium that will help us to design & implement automated software for detecting vulnerabilities requirements in Web-application!
  2. Sofware Design Phase : - 	Designed software standard Page Object Model framework for software. Defined Page Object Repository & Test File
  3. Coding Phase: - Create Page Object Repository, Create Test file for test script, Implemented Selenium.

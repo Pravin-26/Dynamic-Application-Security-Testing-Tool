@@ -7,3 +7,12 @@ Page Object Model is implemented with Page file will contain constructors for co
 Two test cases are included - (1) One test case for Vulnerable website & (2) One test case for secure website - to show accuracy of the software.
 In test case for Vulnerable website, a XSS-payload is injected & then alert is captured. A detailed HTML report is generated that will capture alert message & inform necessary remediation steps for protecting the website from XSS.
 In test case for Secure website (let's say google), a XSS-payload is injected & then no alert will be genrated because website is protected with CSP. Thus, a detailed HTML report is generated that will inform website is protected from XSS.
+Sofwate goes through SDLC which is given below: -
+
+Sofwatare Development Lifycyle (SDLC): -
+ 1.Requirement gathering & Analysis Phase: - Analyzed & gathered information on Selenium architecture, Working of Selenium that will help us to design & implement automated software for detecting vulnerabilities requirements in Web-application!
+ 2. Sofware Design Phase : - 	Designed software standard Page Object Model framework for software. Defined Page Object Repository & Test File
+ 3. Coding Phase: - Create Page Object Repository, Create Test file for test script, Implemented Selenium.
+ 4. Testing Phase: - Implemented Python Unit framework with 3 phases: - Arrange, Act, Assert.
+ 5. Deployment & Maintenance: - -	After successful testing, deployed script for Cross-Site Scripting attack with continuous maintenance
+ 

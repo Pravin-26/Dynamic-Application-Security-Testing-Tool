@@ -1,7 +1,7 @@
 import pyfiglet
 
 def banner():
-    ascii_banner = pyfiglet.figlet_format("Web Scanner Software \n -by Pravin S")
+    ascii_banner = pyfiglet.figlet_format("Web Scanner Software  - By Pravin Shinde ")
     return ascii_banner
 
 if __name__ == '__main__':

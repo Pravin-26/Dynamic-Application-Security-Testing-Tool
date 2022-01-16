@@ -1,0 +1,21 @@
+AttackID: Cross-Site Scripting Attack
+Severity: High
+Title: "Site is Vulnerable to XSS"
+AttackDescription: >
+    Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. 
+    XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different 
+    end user. Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the 
+    output it generates without validating or encoding it.
+
+    CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+
+    Source: - https://owasp.org/www-community/attacks/xss/
+              https://cwe.mitre.org/data/definitions/79.html
+Remediation: >
+    The HTTP X-XSS-Protection response header is a feature of Internet Explorer, Chrome and Safari that stops pages from loading when they detect reflected 
+    cross-site scripting (XSS) attacks. Although these protections are largely unnecessary in modern browsers when sites implement a strong Content-Security-Policy 
+    that disables the use of inline JavaScript ('unsafe-inline'), they can still provide protections for users of older web browsers that don't yet support CSP.
+
+    Implement below Response headers on web-application: -
+    "X-XSS-Protection: 1; mode=block"
+    "Content-Security-Policy: unsafe-inline"

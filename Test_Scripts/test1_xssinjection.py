@@ -44,7 +44,7 @@ class LoginTest(unittest.TestCase):
 
     def test2_xss(self):
         driver = self.driver
-        driver.get('https://www.google.com/')    # This website protected against XSS so below payload will not generate alert
+        driver.get('https://www.google.com/')    # This website is protected against XSS so below payload will not generate alert
         time.sleep(3)
 
         google = Homepage(driver)

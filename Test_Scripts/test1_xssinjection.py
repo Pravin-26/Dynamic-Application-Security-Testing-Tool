@@ -22,7 +22,7 @@ class LoginTest(unittest.TestCase):
     
     def test1_xss(self):
         driver = self.driver
-        driver.get('http://demo.testfire.net')
+        driver.get('http://demo.testfire.net')    # This website is vulnerable for XSS so below payload will alert
         time.sleep(8)
 
         login = Homepage(driver)
@@ -44,7 +44,7 @@ class LoginTest(unittest.TestCase):
 
     def test2_xss(self):
         driver = self.driver
-        driver.get('https://www.google.com/')
+        driver.get('https://www.google.com/')    # This website protected against XSS so below payload will not generate alert
         time.sleep(3)
 
         google = Homepage(driver)

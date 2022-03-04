@@ -1,6 +1,3 @@
-AttackID: SQL Injection Attack
-Severity: High
-Title: "Site is Vulnerable to SQL Injection Attack"
 AttackDescription: >
     A SQL injection attack consists of insertion or “injection” of a SQL query via the input data from the client to the application. 
     A successful SQL injection exploit can read sensitive data from the database, modify database data (Insert/Update/Delete), execute 
@@ -10,10 +7,6 @@ AttackDescription: >
 
     CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
 
-    Source: - https://owasp.org/www-community/attacks/SQL_Injection 
-            https://cwe.mitre.org/data/definitions/89.html
+
 Remediation: >
     Prevention techniques such as input validation, parametrized queries, stored procedures, and escaping work well with varying attack vectors.
-    
-    Source: -  https://cwe.mitre.org/data/definitions/89.html 
-            https://www.ptsecurity.com/ww-en/analytics/knowledge-base/how-to-prevent-sql-injection-attacks/ 

@@ -1,4 +1,4 @@
-# Automated Security Testing_Web_Scanner_Software
+# Automated Dynamic-Application-Security-Testing-Tool
 In recent years, web-applications have become an essential part of our daily life. Web-applications provide digital services like social networking, e-governance, payment of utility bills, online banking, e-commerce etc. The two way-data transfers between web-applications and web-browser makes web-applications attractive to web criminals or hackers for stealing information & committing crimes on internet. Thus, finding vulnerabilities in web-applications becomes crucial part for Application Security team.
 There are manual and automated tools methods to perform vulnerability assessment of a web-application. 
 
